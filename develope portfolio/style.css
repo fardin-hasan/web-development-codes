@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .name-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 50px;
 }
@@ -60,3 +63,34 @@ section{
     border-radius: 6px  ;
 }
 
+.half-exp1{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 30px grey;
+    border-radius: 15px;
+    border-left: 5px solid;
+    border-image: linear-gradient(red,tomato);
+    border-image-slice: 1;
+}
+.half-exp2{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 30px grey;
+    border-radius: 15px;
+    border-left: 5px;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+  
+  
+  
+}
+.orange-color{
+    color: orange;
+}
