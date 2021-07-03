@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 50px;
 }
 .intro {
     width: 50%;
@@ -39,3 +40,23 @@ section{
     
     
 }
+.work-img img{
+    width: 90%;
+    height: 85%;
+   padding-top: 5%;
+    padding-left: 5%;
+
+}
+.work-exp{
+    width: 90%;
+    padding-right: 3%;
+}
+.contact{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 10px;
+    border-radius: 6px  ;
+}
+
