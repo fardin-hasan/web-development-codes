@@ -10,6 +10,8 @@ h3{
 }
 .head{
     display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
 }
 .intro{
     width: 50%;
@@ -21,18 +23,49 @@ h3{
 .am{
     color: rgb(20, 219, 143) ;
 }
-.intro-img{
-    width: 50%;
-}
-.intro-img img{
-    width: 100%;
-    border-radius: 25px;
-}
+
 .hire{
     text-decoration: none;
     color: white;
     background-image: linear-gradient(rgb(216, 76, 76),rgb(59, 37, 37));
-    padding: 3px 5px 3px 5px;
+    padding: 3px 8px 3px 8px;
     border-radius: 5px;
     border:1px solid rgb(201, 53, 53);
+    margin-left: 5px;
+    
+}
+.qualification{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 10%;
+    border-left: 4px solid;
+    
+   border-image: linear-gradient(rgb(109, 11, 11),rgb(192, 192, 192));
+   border-image-slice: 1 ;
+    
+    
+    
+    
+}
+.work-p{
+    margin-left: 5px;
+
+}
+.my-works{
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 5%;border-left: 4px solid;
+    
+    border-image: linear-gradient(rgb(109, 11, 11),rgb(192, 192, 192));
+    border-image-slice: 1 ;
+     
+}
+.work{
+    margin-top: 90px;
+    margin-bottom: 100px;
+    display: flex;
+}
+h2{
+    
+    color: rgb(20, 219, 143) ;
 }
