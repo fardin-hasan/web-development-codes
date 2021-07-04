@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    background-image: url(logos/beautiful-simple-english-words-wallpapers.jpg);
+    background-position: fill;
+}
+h3{
+  color: rgb(20, 219, 143) ;
+}
+.head{
+    display: flex;
+}
+.intro{
+    width: 50%;
+    padding: 10px;
+}
+.name{
+    color: rgb(163, 236, 129);
+}
+.am{
+    color: rgb(20, 219, 143) ;
+}
+.intro-img{
+    width: 50%;
+}
+.intro-img img{
+    width: 100%;
+    border-radius: 25px;
+}
+.hire{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(216, 76, 76),rgb(59, 37, 37));
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px;
+    border:1px solid rgb(201, 53, 53);
+}
